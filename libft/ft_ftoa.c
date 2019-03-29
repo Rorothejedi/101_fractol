@@ -6,7 +6,7 @@
 /*   By: rcabotia <marvin@le-101.fr>                +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/01/09 17:43:19 by rcabotia     #+#   ##    ##    #+#       */
-/*   Updated: 2019/01/09 18:44:50 by rcabotia    ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/03/28 18:24:56 by rcabotia    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -52,7 +52,8 @@ static int	ft_int_to_str(int x, char str[], int d)
 	str[i] = '\0';
 	return (i);
 }
-void	ft_ftoa(float n, char *res, int afterpoint)
+
+void		ft_ftoa(float n, char *res, int afterpoint)
 {
 	int		i;
 	int		int_part;

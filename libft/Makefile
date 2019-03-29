@@ -6,7 +6,7 @@
 #    By: rcabotia <marvin@le-101.fr>                +:+   +:    +:    +:+      #
 #                                                  #+#   #+    #+    #+#       #
 #    Created: 2018/10/03 10:09:05 by rcabotia     #+#   ##    ##    #+#        #
-#    Updated: 2018/11/29 14:37:49 by rcabotia    ###    #+. /#+    ###.fr      #
+#    Updated: 2019/03/28 18:28:06 by rcabotia    ###    #+. /#+    ###.fr      #
 #                                                          /                   #
 #                                                         /                    #
 # **************************************************************************** #
@@ -83,13 +83,14 @@ SRCS = ft_memset.c			\
 	   ft_sqrt.c			\
 	   ft_any.c				\
 	   ft_is_sort.c			\
-		 ft_isnbr.c       \
+	   ft_isnbr.c			\
 	   ft_realloc.c			\
 	   ft_strichr.c			\
 	   ft_getnbr.c			\
 	   ft_arrdel_c.c		\
 	   ft_arrdel_i.c		\
-		 ft_abs.c					\
+	   ft_abs.c				\
+	   ft_ftoa.c			\
 	   get_next_line.c
 
 OBJS = $(SRCS:.c=.o)
@@ -105,7 +106,7 @@ $(NAME): $(OBJS)
 	@ ar ruc $(NAME) $(OBJS)
 	@ ranlib $(NAME)
 	@ echo "\n\nCompilation $(NAME) ..."\
-	".................................................. \033[32m[OK]\033[0m"
+	"................................................... \033[32m[OK]\033[0m"
 
 %.o: %.c loading
 	@ $(CC) $(FLAGS) -I $(HEADERS) -o $@ -c $<
@@ -116,12 +117,12 @@ loading:
 
 clean:
 	@ rm -f $(OBJS)
-	@ echo "Delete *.o ($(NAME)) ..."\
+	@ echo "Delete *.o ($(NAME)) ...."\
 	"................................................. \033[32m[OK]\033[0m"
 
 fclean: clean
 	@ rm -f $(NAME)
-	@ echo "Delete $(NAME) ...."\
+	@ echo "Delete $(NAME) ....."\
 	"...................................................... \033[32m[OK]\033[0m"
 
 re: fclean all

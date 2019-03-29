@@ -6,7 +6,7 @@
 /*   By: rcabotia <marvin@le-101.fr>                +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2018/10/03 10:01:32 by rcabotia     #+#   ##    ##    #+#       */
-/*   Updated: 2018/11/29 14:39:56 by rcabotia    ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/03/28 18:30:37 by rcabotia    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -107,6 +107,7 @@ void				ft_arrdel_c(char **array, int size);
 void				ft_arrdel_i(int **array, int size);
 int					ft_isnbr(char *str);
 int					ft_abs(int n);
+void				ft_ftoa(float n, char *res, int afterpoint);
 
 int					get_next_line(const int fd, char **line);
 
