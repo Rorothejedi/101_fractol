@@ -1,18 +1,20 @@
-# Fractol (fract'ol)
+# Fract'ol
 
 Réalisation de fractales (Mandelbrot, Julia, BurningShip, Multibrot) avec la librairie graphique minilibX.
 
----------------------------------
+## Sujet
+
+[PDF fract'ol](https://github.com/Rorothejedi/101_fractol/blob/master/fract_ol.fr.pdf)
 
 ## Fonctionnalités
 
-* Utilisation du multithreading (8 threads).
-* Utilisation des images de la minilibX.
-* Zoom et dezoom qui pointe sur la position actuelle de la souris.
-* Déplacement avec les flèches du clavier.
-* Possibilité de faire varier avec la souris (sans clic) le paramètre de l’ensemble de Julia.
-* Possibilité de faire varier la puissance du Multibrot.
-* Possibilité de changer la fractale affichée a la volée.
+- Utilisation du multithreading (8 threads).
+- Utilisation des images de la minilibX.
+- Zoom et dezoom qui pointe sur la position actuelle de la souris.
+- Déplacement avec les flèches du clavier.
+- Possibilité de faire varier avec la souris (sans clic) le paramètre de l’ensemble de Julia.
+- Possibilité de faire varier la puissance du Multibrot.
+- Possibilité de changer la fractale affichée a la volée.
 
 * Interface dynamique affichant en temps reel :
 	* la fractale actuelle
