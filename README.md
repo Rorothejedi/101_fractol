@@ -12,6 +12,7 @@ Réalisation de fractales (Mandelbrot, Julia, BurningShip, Multibrot) avec la li
 * Déplacement avec les flèches du clavier.
 * Possibilité de faire varier avec la souris (sans clic) le paramètre de l’ensemble de Julia.
 * Possibilité de faire varier la puissance du Multibrot.
+* Possibilité de changer la fractale affichée a la volée.
 
 * Interface dynamique affichant en temps reel :
 	* la fractale actuelle
