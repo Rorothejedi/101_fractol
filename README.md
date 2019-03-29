@@ -21,6 +21,7 @@ Interface statique affichant les commandes en deux sections :
  - Celles qui ne sont pas affectees par la sensibilite
 
 Utilisation du multithreading (8 threads).<br>
+Utilisation des images de la minilibX.<br>
 Zoom et dezoom qui pointe sur la position actuelle de la souris.<br>
 Deplacement avec les fleches du clavier.<br>
 Possibilite de faire varier avec la souris (sans clic) le paramètre de l’ensemble de Julia.<br>
@@ -58,15 +59,24 @@ $> ./fractol 4
 
 ### Mandelbrot
 ![Image Mandelbrot 1](https://github.com/Rorothejedi/fractol/blob/master/img_project/img_mandel.png)
+
 ![Image Mandelbrot 2](https://github.com/Rorothejedi/fractol/blob/master/img_project/img_mandel_2.png)
+
 ![Image Mandelbrot 3](https://github.com/Rorothejedi/fractol/blob/master/img_project/img_mandel_3.png)
+
+-----------------------------------
 
 ### Julia
 ![Image Julia 1](https://github.com/Rorothejedi/fractol/blob/master/img_project/img_julia.png)
+
 ![Image Julia 2](https://github.com/Rorothejedi/fractol/blob/master/img_project/img_julia_2.png)
+
+-----------------------------------
 
 ### Burning Ship
 ![Image Burning Ship](https://github.com/Rorothejedi/fractol/blob/master/img_project/img_bship.png)
+
+-----------------------------------
 
 ### Multibrot
 ![Image Multibrot](https://github.com/Rorothejedi/fractol/blob/master/img_project/img_multi.png)
