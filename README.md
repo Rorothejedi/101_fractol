@@ -54,4 +54,4 @@ $> ./fractol 4
 
 ## Images du projet
 
-![Image Mandelbrot 1](https://raw.githubusercontent.com/Rorothejedi/fractol/master/img_project/img_mandel.png)
+![Image Mandelbrot 1](https://github.com/Rorothejedi/fractol/blob/master/img_project/img_mandel.png)
