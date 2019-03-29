@@ -14,18 +14,18 @@ Réalisation de fractales (Mandelbrot, Julia, BurningShip, Multibrot) avec la li
 * Possibilité de faire varier la puissance du Multibrot.
 
 * Interface dynamique affichant en temps reel :
-      * la fractale actuelle
-      * le temps de rendu (en secondes)
-      * le nombre d'iterations
-      * la puissance du zoom
-      * la couleur (parmi les 7 disponibles)
-      * la sensibilite (des mouvements, des itérations et de la puissance du multibrot)
-      * (puissance de Multibrot)
-      * (verrouillage de Julia)
+	* la fractale actuelle
+	* le temps de rendu (en secondes)
+	* le nombre d'iterations
+	* la puissance du zoom
+	* la couleur (parmi les 7 disponibles)
+	* la sensibilite (des mouvements, des itérations et de la puissance du multibrot)
+	* (puissance de Multibrot)
+	* (verrouillage de Julia)
 
 * Interface statique séparant les commandes disponibles en deux sections :
-      * les commandes etant affectées par la sensibilité
-      * les commandes qui ne sont pas affectées par la sensibilité
+	* les commandes etant affectées par la sensibilité
+	* les commandes qui ne sont pas affectées par la sensibilité
 
 ## Utilisation
 
